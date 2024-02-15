@@ -21,6 +21,7 @@ public:
     }
 
     // ⭐TODO: Loop through the entire SLL and display each value
+    // ➕ADDITIONALLY: print what is the head SLL in a new line and the size of the elements in a new line
     void display()
     {
         
