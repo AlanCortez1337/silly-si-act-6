@@ -1,4 +1,4 @@
-#include "node.h"
+#include "node.hpp"
 #include <memory>
 
 template <typename T>
@@ -15,7 +15,7 @@ public:
     }
 
     // ⭐TODO: Using your knowledge from the activity and the add function, finish the function below to remove the first element of the SLL
-    void pop_front(Node *newHead)
+    void pop_front()
     {
         
     }
