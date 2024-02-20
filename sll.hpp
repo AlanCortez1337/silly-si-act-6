@@ -9,9 +9,10 @@ public:
     SLL() : head_(nullptr) {}
 
     // ⭐TODO: Using your knowledge from the activity and the add function, finish the function below to insert a NEW NODE to the head of SLL
-    void push_front(Node *newHead)
-    {
-        
+    void push_front(T value)
+    {   std::shared_ptr<Node> new_value = std::make_shared <Node> (value);
+        (*new_value).next_ = head_;
+        head_ = new_value;
     }
 
     // ⭐TODO: Using your knowledge from the activity and the add function, finish the function below to remove the first element of the SLL
