@@ -6,11 +6,11 @@ int main()
     SLL<std::string> bakeryTrain;
 
     // populating train with different carts
-    bakeryTrain.add("cookies");
-    bakeryTrain.add("brownies");
-    bakeryTrain.add("croissants");
-    bakeryTrain.add("bagels");
-    bakeryTrain.add("cupcakes");
+    bakeryTrain.push_front("cookies");
+    bakeryTrain.push_front("brownies");
+    bakeryTrain.push_front("croissants");
+    bakeryTrain.push_front("bagels");
+    bakeryTrain.push_front("cupcakes");
 
     // ⭐TODO: Display bakeryTrain's content
 
