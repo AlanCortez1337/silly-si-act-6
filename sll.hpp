@@ -16,8 +16,22 @@ public:
     }
 
     // ⭐TODO: Using your knowledge from the activity and the add function, finish the function below to remove the first element of the SLL
-    void pop_front(Node *newHead)
-    {
+    void pop_front()
+    {   if (head_ == NULLPTR) {
+        std::cout << "There's no pointers silly! dumb dumb meow" << "\n";
+        return;
+    } else if (head_->next_ == NULLPTR) {
+        head_->value_ = NULL
+        return;
+    } else {
+        std::shared_ptr<T> tempnode = head_;
+        head_ = head_->next_;
+        tempnode->next_->next_ = NULLPTR;
+        delete tempnode;
+
+        }
+
+    }
         
     }
 
